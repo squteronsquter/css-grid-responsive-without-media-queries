@@ -68,6 +68,10 @@ main {
     grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
     grid-gap:3rem;
 }
+.article {
+    display: grid;
+    align-items: start;
+}
 .article__heading {
     padding: 2rem 0;
     border: none;
@@ -79,4 +83,7 @@ main {
     border-radius: 100%;
     padding: 4rem;
     margin-top: 2rem;
+}
+.article__button {
+    align-self: end;
 }
